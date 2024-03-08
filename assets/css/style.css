@@ -13,7 +13,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    color: #444444;
+    color: #f2f2f2;
 }
 
 a {
@@ -35,6 +35,25 @@ h6 {
     font-family: "Poppins", sans-serif;
 }
 
+h2,
+h4 {
+    color: #2c4964;
+}
+
+#footer h4 {
+    color: #ffffff
+}
+
+li,
+p.fst-italic {
+    color: #2c4964;
+}
+
+.section-title p,
+.testimonials p {
+    color: #2c4964;
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -47,7 +66,7 @@ h6 {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: linear-gradient(45deg, #02353c 0%, #2eaf7d 100%);
+    background: #2eaf7d;
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -61,7 +80,7 @@ h6 {
 }
 
 .back-to-top:hover {
-    background: linear-gradient(45deg, #2eaf7d 0%, #02353c 100%);
+    background: linear-gradient(45deg, #2eaf7d 0%, #6fb3b8 100%);
     color: #fff;
 }
 
@@ -443,7 +462,7 @@ h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(45deg, #02353c 0%, #2eaf7d 100%), url("../img/hero-bg.jpg") center center no-repeat;
+    background: #2eaf7d;
     background-size: cover;
 }
 
@@ -468,7 +487,7 @@ h6 {
 
 #hero .btn-get-started {
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
@@ -477,7 +496,7 @@ h6 {
     transition: 0.5s;
     margin-top: 30px;
     color: #fff;
-    border: 2px solid #fff;
+    background: #6fb3b8;
 }
 
 #hero .btn-get-started:hover {
@@ -560,9 +579,10 @@ section {
     overflow: hidden;
 }
 
-.section-bg {
-    background-color: #f9f8ff;
-}
+
+/* .section-bg {
+    background-color: #f2f2f2;
+} */
 
 .section-title {
     text-align: center;
@@ -637,7 +657,7 @@ section {
     border-radius: 5px;
     transition: 0.5s;
     color: #fff;
-    background: linear-gradient(90deg, #2eaf7d 0%, #02353c 100%), url("../img/counts-bg.png") center center no-repeat;
+    background: #6fb3b8;
     ;
     position: relative;
 }
@@ -659,7 +679,7 @@ section {
 --------------------------------------------------------------*/
 
 .counts {
-    background: linear-gradient(90deg, #2eaf7d 0%, #02353c 100%), url("../img/counts-bg.png") center center no-repeat;
+    background: #2eaf7d;
     padding: 80px 0 60px 0;
 }
 
@@ -687,7 +707,7 @@ section {
     text-align: center;
     padding: 70px 20px 80px 20px;
     transition: all ease-in-out 0.3s;
-    background: #fff;
+    background: #6fb3b8;
 }
 
 .services .icon-box .icon {
@@ -831,7 +851,7 @@ section {
 
 .features .icon-box p {
     font-size: 15px;
-    color: #848484;
+    color: #2c4964;
     margin-left: 60px;
 }
 
@@ -1205,7 +1225,7 @@ section {
 }
 
 .pricing .btn-buy {
-    background: linear-gradient(42deg, #2eaf7d 0%, #02353c 100%);
+    background: #6fb3b8;
     display: inline-block;
     padding: 10px 35px;
     border-radius: 4px;
@@ -1246,7 +1266,7 @@ section {
 --------------------------------------------------------------*/
 
 .faq {
-    background: linear-gradient(42deg, #2eaf7d 0%, #02353c 100%);
+    background: #ffffff;
 }
 
 .faq .section-title h2,
@@ -1316,7 +1336,7 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-    color: #2c4964;
+    color: #ffffff;
 }
 
 .faq .faq-list a.collapsed:hover {
@@ -1523,7 +1543,7 @@ section {
 #footer {
     color: #fff;
     font-size: 14px;
-    background: linear-gradient(45deg, #02353C 0%, #2eaf7d 100%), url("../img/hero-bg.jpg") center center no-repeat;
+    background: #2eaf7d;
     background-size: cover;
 }
 
