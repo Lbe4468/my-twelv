@@ -578,7 +578,7 @@ p.fst-italic {
 --------------------------------------------------------------*/
 
 section {
-    padding: 100px 0 0 0;
+    padding: 125px 0 0 0;
     overflow: hidden;
 }
 
@@ -723,9 +723,9 @@ section {
 }
 
 .card-title {
-    font-size: 32px;
+    font-size: 28px;
     color: #2eaf7d;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .card-copy {
