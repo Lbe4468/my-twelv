@@ -1,12 +1,3 @@
-/**
-* Template Name: Techie
-* Updated: Jan 29 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -950,7 +941,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-    color: #b1a9fc;
+    color: #2eaf7d;
     font-size: 26px;
 }
 
@@ -968,7 +959,8 @@ section {
 }
 
 .testimonials .testimonial-item p {
-    font-style: italic;
+    font-size: 15px;
+    font-weight: 600;
     margin: 0 15px 0 15px;
     padding: 20px 20px 60px 20px;
     background: #fff;
@@ -1714,7 +1706,7 @@ section {
 }
 
 #footer .copyright-wrap {
-    border-top: 1px solid #8577fb;
+    border-top: 1px solid #ffffff;
 }
 
 #footer .credits {
